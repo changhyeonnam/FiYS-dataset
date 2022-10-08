@@ -14,8 +14,10 @@ from utils import generate_unqiue_id, fileter_dataset,generate_label
 # 5. 1~4 반복.
 
 if __name__=='__main__':
+
     PATH_DATASET = 'dataset'
     paths_image_folder = []
+
     for folder_name in os.listdir(PATH_DATASET):
         paths_image_folder.append(os.path.join(PATH_DATASET,folder_name))
 
@@ -33,12 +35,16 @@ if __name__=='__main__':
         label = generate_label(path)
         for filename in glob.glob(os.path.join(path,'*.jpg')):
             # filter the image
-            fileter_dataset(filename)
-            # generate uid
-            new_filename,uid = generate_unqiue_id(path)
-            os.rename(filename,new_filename)
-            folder_file_dict[path].append(uid)
-            item_list.append((uid,label))
+            if fileter_dataset(filename=filename) :
+                src = filename
+                dst = PATH_TRASH
+                shutil.move(src, dst)
+            else:
+                # generate uid
+                new_filename,uid = generate_unqiue_id(path)
+                os.rename(filename,new_filename)
+                folder_file_dict[path].append(uid)
+                item_list.append((uid,label))
 
     for k,items in folder_file_dict.items():
         print(f'There {len(items)} {k} items.')

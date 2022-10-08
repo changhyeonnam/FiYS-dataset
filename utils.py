@@ -25,13 +25,11 @@ def fileter_dataset(filename):
             flag = True
         if width < height:
             width, height = height, width
-        if width / height > 3:
+        if width / height > 3.0:
             print('Aspect ratio is greater than 3.0.')
             flag = True
-    if flag:
-        src = filename
-        dst = PATH_TRASH
-        shutil.move(src, dst)
+
+    return flag
 
 def generate_label(path):
     im =Image.open(glob.glob(os.path.join(path,'*.jpg'))[0])

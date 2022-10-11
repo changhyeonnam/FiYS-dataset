@@ -37,8 +37,14 @@ def generate_label(path):
 
     brand = input('What is brand of shoes? ')
     name = input('What is name of shoes? ')
-    color = input('What is color of shoes? ')
-    sort = input('Are the shoes low top or high top? ')
+    upper = input('What are the characteristics of the upper? ')
+    midsole = input('What is the color of the midsole? ')
+    outsole = input('What is the color of the outsole? ')
+    toebox = input('What are the characteristics of the toebox? ')
+    tongue = input('What are the characteristics of the tongue? ')
+    heeltab = input('What is the color of the heeltab? ')
+    top = input('Is it low top or high top? ')
+    shoelace = input('What is the color of the shoelace? ')
     label = f'brand is {brand}, name is {name}, color is {color}, {sort}'
     print(f'label is {label}')
     return label

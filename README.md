@@ -1,7 +1,7 @@
 # FiYS (Find Your Shoes)-dataset
 This repo is about labeling shoes image with fine-grained description.
 We're constructing Shoes Text-Image pair dataset for our capstone project.
-After Constructing dataset, we're going to share our dataset. 
+After constructing dataset, we will release our dataset in public.
 
 ## Example
 | id            | image                      | description                                                                                                                                                                                                                                              |
@@ -14,7 +14,7 @@ After Constructing dataset, we're going to share our dataset.
     - Removed images with an aspect ratio greater than 3.0.
     - Removed images with min(width, height) < 200.
 2. For those that do not meet the above filtering criteria, change the name of each image to unique Id
-3. Enter label.
+3. Enter input for label.
    ```python
        label = f'brand is {brand}, name is {name}, upper is {upper}, midsole is {midsole},' \
             f'outsole is {outsole}, toebox is {toebox}, tongue is {tongue}, heeltab is {heeltab},' \
@@ -24,7 +24,7 @@ After Constructing dataset, we're going to share our dataset.
 5. Repeat 1 to 4.
 
 ## Label info
-We referenced Shoes terminology from this [link](https://www.shoeguide.org/shoe_anatomy/)
+We referenced Shoes terminology from this [link](https://www.shoeguide.org/shoe_anatomy/).
 ![image](img/shoes_feature.png)
 
 We chose a selectively important feature among the various features of the shoe.

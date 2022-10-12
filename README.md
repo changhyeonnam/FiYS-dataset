@@ -31,8 +31,8 @@ We chose a selectively important feature among the various features of the shoe.
 (brand, name, upper, midsole, outsole, toebox, tongue, heeltab, top, shoelace)
 
 ## Reference
-1. [COYO from kakao brain](https://github.com/kakaobrain/coyo-dataset)
-2. [WIT](https://github.com/google-research-datasets/wit)
+1. [COYO-700M: Image-Text Pair Dataset](https://github.com/kakaobrain/coyo-dataset)
+2. [WIT : Wikipedia-based Image Text Dataset](https://github.com/google-research-datasets/wit)
 
 
 ## Quick Start

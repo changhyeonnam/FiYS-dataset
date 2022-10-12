@@ -2,8 +2,6 @@ import pandas as pd
 import os, glob, shutil
 from utils import generate_unqiue_id, fileter_dataset,generate_label
 
-# reference : https://github.com/kakaobrain/coyo-dataset
-
 if __name__=='__main__':
 
     PATH_DATASET = 'dataset'

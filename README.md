@@ -1,8 +1,7 @@
 # Shoes labeler
 This repo is about labeling image with fine-grained description.
 We're constructing Shoes Text-Image pair dataset for our capstone project.
-After Constructing dataset, we're going to share our dataset.
-
+After Constructing dataset, we're going to share our dataset. 
 ## Data Filtering
  1. Image Filtering
     - Removed images less than 5KB image size.
@@ -17,6 +16,10 @@ After Constructing dataset, we're going to share our dataset.
    ```
 4. Save in the ID column and label column in the data frame.
 5. Repeat 1 to 4.
+
+## Reference
+1. [COYO from kakao brain](https://github.com/kakaobrain/coyo-dataset)
+2. [WIT](https://github.com/google-research-datasets/wit)
 
 
 ## Quick Start

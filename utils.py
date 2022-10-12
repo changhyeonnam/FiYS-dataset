@@ -41,11 +41,11 @@ def generate_label(path):
     outsole = input('What is the color of the outsole? ')
     toebox = input('What are the characteristics of the toebox? ')
     tongue = input('What are the characteristics of the tongue? ')
-    heeltab = input('What is the color of the heeltab? ')
+    heeltap = input('What is the color of the heeltap? ')
     top = input('Is it low top or high top? ')
     shoelace = input('What is the color of the shoelace? ')
     label = f'brand is {brand}, name is {name}, upper is {upper}, midsole is {midsole},' \
-            f'outsole is {outsole}, toebox is {toebox}, tongue is {tongue}, heeltab is {heeltab},' \
+            f'outsole is {outsole}, toebox is {toebox}, tongue is {tongue}, heeltap is {heeltap},' \
             f'top is {top}, shoelace is {shoelace}.'
     print(f'label is {label}')
     return label

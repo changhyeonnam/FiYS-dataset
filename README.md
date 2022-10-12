@@ -26,6 +26,7 @@ After Constructing dataset, we're going to share our dataset.
 ## Label info
 We referenced Shoes terminology from this [link](https://www.shoeguide.org/shoe_anatomy/)
 ![image](img/shoes_feature.png)
+
 We chose a selectively important feature among the various features of the shoe.
 (brand, name, upper, midsole, outsole, toebox, tongue, heeltab, top, shoelace)
 

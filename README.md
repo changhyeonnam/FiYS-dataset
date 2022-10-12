@@ -1,5 +1,5 @@
 # FiYS (Find Your Shoes)-dataset
-This repo is about labeling image with fine-grained description.
+This repo is about labeling shoes image with fine-grained description.
 We're constructing Shoes Text-Image pair dataset for our capstone project.
 After Constructing dataset, we're going to share our dataset. 
 
@@ -22,6 +22,12 @@ After Constructing dataset, we're going to share our dataset.
    ```
 4. Save in the ID column and label column in the data frame.
 5. Repeat 1 to 4.
+
+## Label info
+We referenced Shoes terminology from this [link](https://www.shoeguide.org/shoe_anatomy/)
+![image](img/shoes_feature.png)
+We chose a selectively important feature among the various features of the shoe.
+(brand, name, upper, midsole, outsole, toebox, tongue, heeltab, top, shoelace)
 
 ## Reference
 1. [COYO from kakao brain](https://github.com/kakaobrain/coyo-dataset)

@@ -2,6 +2,12 @@
 This repo is about labeling image with fine-grained description.
 We're constructing Shoes Text-Image pair dataset for our capstone project.
 After Constructing dataset, we're going to share our dataset. 
+
+## Example
+| id            | image                      | description                                                                                                                                                                                                                                              |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1125282207474 | ![image](img/High_b_1.jpg) | brand is converse, shoes name is high black, upper : black with five-pointed star brand symbol in white circle, midsole is white with a black line, outsole is white, toebox is white, tongue is black, heeltab is black, top is high, shoelace is white |
+
 ## Data Filtering
  1. Image Filtering
     - Removed images less than 5KB image size.

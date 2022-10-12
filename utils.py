@@ -34,7 +34,6 @@ def fileter_dataset(filename):
 def generate_label(path):
     im =Image.open(glob.glob(os.path.join(path,'*.jpg'))[0])
     im.show()
-
     brand = input('What is brand of shoes? ')
     name = input('What is name of shoes? ')
     upper = input('What are the characteristics of the upper? ')
@@ -45,6 +44,8 @@ def generate_label(path):
     heeltab = input('What is the color of the heeltab? ')
     top = input('Is it low top or high top? ')
     shoelace = input('What is the color of the shoelace? ')
-    label = f'brand is {brand}, name is {name}, color is {color}, {sort}'
+    label = f'brand is {brand}, name is {name}, upper is {upper}, midsole is {midsole},' \
+            f'outsole is {outsole}, toebox is {toebox}, tongue is {tongue}, heeltab is {heeltab},' \
+            f'top is {top}, shoelace is {shoelace}.'
     print(f'label is {label}')
     return label

@@ -4,15 +4,6 @@ from utils import generate_unqiue_id, fileter_dataset,generate_label
 
 # reference : https://github.com/kakaobrain/coyo-dataset
 
-# 1. 이미지 열어서
-#    - 5 kb 미만
-#    - 비율 3.0 이상
-#    - Min(width,height)<200
-# 2. 1번 기준에 해당 안되는 것에 대해서 각 이미지 이름을 int 식별자(Id)로 이미지 이름 바꾸고
-# 3. 하나의 폴더안에 있는 모든 이미지들에 대해 지정할 label(brand, name, color, low/high) 입력
-# 4. dataframe에 id column, label column에 저장.
-# 5. 1~4 반복.
-
 if __name__=='__main__':
 
     PATH_DATASET = 'dataset'

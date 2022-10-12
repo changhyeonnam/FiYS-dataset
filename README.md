@@ -1,4 +1,4 @@
-# FiYS (Find Your Shoes)-dataset
+# FiYS (Find Your Shoes): Image-Text Pair Dataset 
 This repo is about labeling shoes image with fine-grained description.
 We're constructing Shoes Text-Image pair dataset for our capstone project.
 After constructing dataset, we will release our dataset in public.
